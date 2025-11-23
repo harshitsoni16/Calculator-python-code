@@ -44,7 +44,8 @@ def Trigonometric_calculations():
          print(1/math.cos(rad))
     elif r=="cosec":
          print(1/math.sin(rad))
-         
+    else:
+        print("Invalid input!")
 
 def exponential_and_logarithmic_functions():
      u = input("Enter which function you want to perform: ")
