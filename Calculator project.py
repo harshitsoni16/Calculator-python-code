@@ -7,7 +7,7 @@ def Arithmatic_operations():
     print("Press 3 for *")
     print("Press 4 for /")
     print("Press 5 for //")
-    n = int(input())   
+    n = int(input("input any number of above choices: "))   
     a = float(input("Enter first number: "))
     b = float(input("Enter another number: ")) 
     if n == 1:
@@ -48,7 +48,7 @@ def Trigonometric_calculations():
         print("Invalid input!")
 
 def exponential_and_logarithmic_functions():
-     u = input("Enter which function you want to perform: ")
+     u = input("Enter any number or type log if you want to perform logarithmic function : ")
      if u== "log":
           s = float(input("Input number: "))
           print(math.log10(s))
@@ -80,3 +80,4 @@ k = 0
 while k < positive_infinity:
      Calculator()
      k+=1
+
